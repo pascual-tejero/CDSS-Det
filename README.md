@@ -1,5 +1,5 @@
 # CDSS-Det
-Official implementation of Cross-Domain Semi-Supervised Organ Detection, AAAI 2026 submission
+Official implementation of Cross-Domain Semi-Supervised Organ Detection, [MIDL 2026 submission](https://openreview.net/forum?id=NSjBDpsZqV#discussion)
 
 
 # Installation
