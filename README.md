@@ -1,6 +1,9 @@
 # CDSS-Det
 Official implementation of Cross-Domain Semi-Supervised Organ Detection, [MIDL 2026 submission](https://openreview.net/forum?id=NSjBDpsZqV#discussion)
 
+# Description
+CDSS-Det is a cross-domain semi-supervised framework for accurate 3D organ detection in CT scans. Built on the Transformer-based Organ-DETR model, it leverages labeled source data, a small set of labeled target samples, and unlabeled target data to improve detection across domains. By combining pseudo-labeling, curriculum learning, and domain adaptation, CDSS-Det effectively transfers knowledge from well-annotated sources to target domains with limited labels. Experiments show it significantly outperforms conventional semi-supervised and domain adaptation methods, achieving higher mean Average Precision (mAP) and improved detection of small organs, even surpassing fully supervised models trained solely on the target domain.
+
 
 # Installation
 ```
