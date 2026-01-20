@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 
 ## Configs
-Config files are under config/aaai, adjust the dataset path according to your storage and other parameters as you needed.
+Config files are located under `config/aaai`. Adjust the dataset path and other parameters as needed for your setup.
 
 ## Datasets
 Our preprocessed datasets can be downloaded from [here](https://pan.baidu.com/s/1OlRY_z7R4z2MbcMadYiEXQ).
@@ -26,14 +26,14 @@ If you use your own dataset, make sure it is preprocessed in the same way as org
 
 ## Training
 
-## Pre-training
+### Pre-training
 First, pre-train the model using source data.
 ```
 export ORGANDETR_DATA=${your_data_path}
 python scripts/sd_train.py --config ${your_config_name}
 ```
 
-## Cross-Domain training
+### Cross-Domain training
 Second, use the pre-trained model above to train the source, labeled target and unlabeled target data together.
 ```
 export ORGANDETR_DATA=${your_data_path}
